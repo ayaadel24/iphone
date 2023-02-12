@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+:root 
+{
+    --primary-color:#fff;
+    --secondry-color:#000;
+    --dark-color:#4d4b4b;
+    --semi-light: #f7f7f7;
+}
+.aya
+{
+    width: 100%;
+   min-height: 100vh;
+    background-color: var(--secondry-color);
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+    margin-inline-end: 50px;
+        
+}
+a
+{
+    text-decoration: none;
+}
+nav .content
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+nav .content img
+{
+    width: 50px;
+    object-fit: contain;
+    margin: 20px 100px ;
+}
+nav .content .navbar-item .nav-list .nav-item
+{
+  text-transform: capitalize;
+  font-size: 15px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+nav .content .navbar-item .nav-list .nav-item:hover
+{
+    color: pink;
+}
+.header .container
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+.header .iphones
+{
+    width: 40%;
+
+}
+.header .iphones .head h1
+{
+color: var(--primary-color);
+font-size: 35px;
+text-transform: uppercase;
+padding: 10px;
+}
+.header .iphones .paragraph p
+{
+color: var(--primary-color);
+font-size: 12px;
+text-transform:capitalize;
+padding-left: 10px;
+}
+.header .iphones .btn button
+{
+color: var(--secondry-color);
+font-size: 15px;
+background-color: var(--primary-color);
+text-transform:capitalize;
+padding:7px;
+border-radius: 10px;
+font-weight: 700;
+margin: 10px;
+cursor: pointer;
+transition: 0.5s;
+}
+.header .iphones .btn button:hover
+{
+    background-color: rgb(250, 127, 148);
+    color: #fff;
+    transform: scale(1.1);
+}
+.header .container .products 
+{
+width: 40%;
+}
+.header .container .products img
+{
+    width: 220px;
+    margin-left: 100px;
+}
+
+footer .photos {
+    width: 500px;
+    position: absolute;
+    left: calc(50% - 250px);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+footer .photos a img
+{
+    width: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer .photos a img:hover
+{
+    transform: scale(2,2);
+}
